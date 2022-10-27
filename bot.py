@@ -11,7 +11,7 @@ import os
 from dotenv import load_dotenv
 
 #get app working directory and append env file name
-env_path =  os.path.abspath(os.path.dirname(__file__) + "/bot.env")
+env_path =  os.path.abspath(os.path.dirname(__file__) + "/test.env")
 
 #load enviroment variables
 load_dotenv(env_path)
